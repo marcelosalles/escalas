@@ -64,6 +64,7 @@ class Escala(list):
              'G#':830.61 }
     INSTRUMENTS = { 'guitar':['E', 'B', 'G', 'D', 'A', 'E'],
                     'bass':['G', 'D', 'A', 'E'],
+                    'bass5strings':['G', 'D', 'A', 'E', 'B'],
                     'ukulele':['A', 'E', 'C', 'G'] }
 
     def __init__(self, tonica, tipo_escala, *args):
