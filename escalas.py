@@ -63,9 +63,12 @@ class Escala(list):
              'G':783.99,
              'G#':830.61 }
     INSTRUMENTS = { 'guitar':['E', 'B', 'G', 'D', 'A', 'E'],
+                    'guitaropenc':['E', 'C', 'G', 'C', 'G', 'C'],
                     'bass':['G', 'D', 'A', 'E'],
                     'bass5strings':['G', 'D', 'A', 'E', 'B'],
-                    'ukulele':['A', 'E', 'C', 'G'] }
+                    'ukulele':['A', 'E', 'C', 'G'],
+                    'cavaquinho':['D', 'B', 'G', 'D'],
+                    'banjo':['D', 'B', 'G', 'D', 'G'] }
 
     def __init__(self, tonica, tipo_escala, *args):
         list.__init__(self, *args)
